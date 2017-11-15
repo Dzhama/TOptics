@@ -62,3 +62,29 @@ header {
 	top: 10rem;
 	left: 2rem;
 }
+
+/* SUPPORT SECTION */
+
+.support {
+	display: flex;
+	justify-content: center;
+	height: 8rem;
+	margin: 3rem auto;
+}
+.service {
+ 	margin: 0rem 3rem;
+ 	display: flex;
+ 	flex-direction: column;
+ 	align-items: center;
+ 	justify-content: space-between;
+}
+.service img {
+	width: 6rem;
+}
+.service .paper {
+	width: 3.5rem;
+}
+.service span {
+	display: flex;
+	justify-content: center;
+}
